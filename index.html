@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haigazian 3D</title>
+    <script type="module" crossorigin src="/assets/index-82b8855b.js"></script>
+    <link rel="stylesheet" href="/assets/index-ae4a0740.css">
+  </head>
+  <body>
+    <div id="tooltip" class="tooltip" style="display: none">
+      <h2>Building Name</h2>
+      <img src="/photodomes/campus-img.jpeg" alt="" />
+      <p>
+        The Haigazian University Campus consists of seven owned buildings:
+        Mehagian (Academic), Mugar (Administration and Libraries), Aharonian
+        Building (Academic and Administration), Philibosian (Student Life and
+        Administration), College (Leased and Academic), Heritage (Administration
+        and Academic) and Dormitory Building (Leased). The net total space is
+        approximately 7275 m2, of which 1,952 m2 is in direct support of the
+        academic programs, such as classrooms, multimedia rooms and various
+        computer and science labs, two libraries and 1,096 m2 that support 56
+        offices. Additional space includes warehouses, cafeterias, lounges and
+        other miscellaneous activity halls. The University has over 28
+        classrooms and 4 computer labs, with an average seating capacity of 25
+        students per each class. Additionally, HU has one Physics lab, one
+        Chemistry lab, one Biology lab, one Nutrition lab, one Trading lab, and
+        one Cooking lab. All the labs are equipped with modern and up-to-date
+        technology.
+      </p>
+      <button id="go-to-building">Go To Building</button>
+    </div>
+    <button id="close">X</button>
+    <div id="minimap-wrapper" class="minimap-wrapper">
+      <canvas id="mini-map"></canvas>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div class="elevator" id="elevator-interface">
+      <h2>Choose Floor</h2>
+      <div class="elevator-floors">
+        <button class="elevator-button" id="elevator-4">4th Floor</button>
+        <button class="elevator-button" id="elevator-3">3rd Floor</button>
+        <button class="elevator-button" id="elevator-2">2nd Floor</button>
+        <button class="elevator-button" id="elevator-1">1st Floor</button>
+      </div>
+    </div>
+    
+  </body>
+</html>
